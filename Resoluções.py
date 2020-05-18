@@ -954,3 +954,36 @@ print("Total de compra foi: R${:.2f}" .format(soma))
 print("Temos {} produto custando mais que R$1000.00" .format(count))
 print("O produto mais barato foi {} que custa R${:.2f}" .format(string_count,menor_preco))'''
 
+'''Exercício 71
+ced50 = 0
+ced20 = 0
+ced10 = 0
+ced1 = 0
+
+print("=====================")
+print("BANCO RUANN")
+print("=====================")
+valor= int(input("Qual valor você deseja sacar? "))
+
+while valor >= 50:
+    ced50 += 1
+    valor -= 50 
+    if valor < 50:
+        print("Total de {} cédulas de R$50".format(ced50))
+while valor >= 20:
+    ced20 += 1
+    valor -= 20 
+    if valor < 20:
+        print("Total de {} cédulas de R$20".format(ced20))
+while valor >= 10:
+    ced10 += 1
+    valor -= 10 
+    if valor < 10:
+        print("Total de {} cédulas de R$10".format(ced10))
+while valor >= 1:
+    ced1 += 1
+    valor -= 1 
+    if valor < 1:
+        print("Total de {} cédulas de R$1".format(ced1))'''
+
+
