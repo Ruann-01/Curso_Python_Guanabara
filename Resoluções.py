@@ -986,4 +986,9 @@ while valor >= 1:
     if valor < 1:
         print("Total de {} cédulas de R$1".format(ced1))'''
 
+#Módulo 16 == Tuplas
+lanche = ('hambúrguer','suco','pão','pudim')
+#print(lanche)
+print(lanche[1])
+
 
