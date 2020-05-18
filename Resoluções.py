@@ -986,9 +986,34 @@ while valor >= 1:
     if valor < 1:
         print("Total de {} cédulas de R$1".format(ced1))'''
 
-#Módulo 16 == Tuplas
+'''Módulo 16 == Tuplas
 lanche = ('hambúrguer','suco','pão','pudim')
 #print(lanche)
-print(lanche[1])
+#print(lanche[1])
+#print(lanche[:2])
+#print(lanche[-2])
+#lanche[1] = 'Refrigerante' Imutáveis
+num = len(lanche)
+for comida in lanche:
+    print(comida) 
+print("comi muito")
+
+for comida in range(0, len(lanche)):
+    print(lanche[comida] "na posição {}" .format(comida))
+
+print(sorted(lanche)) #Ordenado
+
+a = (1,2,3)
+b = (4,5,6,7,8)
+c = a + b
+print(c.count(5))
+print(c.index(5)ou index(5,1))#Informando a posição
+
+pessoa= ('Ruann',23,75)
+
+del(pessoa)#Apagando tupla'''
+
+
+
 
 
