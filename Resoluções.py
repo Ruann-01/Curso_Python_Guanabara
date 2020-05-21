@@ -1013,6 +1013,16 @@ pessoa= ('Ruann',23,75)
 
 del(pessoa)#Apagando tupla'''
 
+'''Exercício 72
+count = ('zero','um','dois','três','quatro','cinco','seis','sete','oito','nove','dez','onze',
+'doze','treze','quartoze','quinze','dezesseis','dezessete','dezoito','dezenove','vinte')
+
+while True:
+    num = int(input("Informe um número de 0 a 20:\n"))
+    if 0 <= num <= 20:
+        break
+print('O número digitado foi',count[num])'''
+
 
 
 
