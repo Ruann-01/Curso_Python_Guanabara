@@ -1023,7 +1023,35 @@ while True:
         break
 print('O número digitado foi',count[num])'''
 
-time = ('Fla','San','')
+'''Exercício 73
+time = ('Fla','San','Palmei','Grêmio','Athletico','SãoPaulo','Int','Cor','Fortal','Goiás','Bahia','Vasco','Atletico','Flu','Botafogo')
+print(time)
+for num in range(0,6):
+    print(time[num])
+
+for num in range(10,15):
+    print(time[num])
+
+print("Os times em ordem alfabética:" ,sorted(time))'''
+
+'''Exercício 74
+valor = (random.randint(1,10), random.randint(1,10),random.randint(1,10),random.randint(1,10),random.randint(1,10))
+menor = 9
+maior=0
+for x in valor:
+    print("",x,end='')
+    if x > maior:
+        maior = x
+    if x < menor:
+        menor = x
+
+print('\n')
+print("Maior:{}".format(maior))
+print("Menor:{}".format(menor))'''
+
+
+
+
 
 
 
