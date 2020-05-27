@@ -1023,7 +1023,7 @@ while True:
         break
 print('O número digitado foi',count[num])'''
 
-
+time = ('Fla','San','')
 
 
 
