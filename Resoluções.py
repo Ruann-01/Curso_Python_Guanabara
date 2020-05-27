@@ -1049,9 +1049,22 @@ print('\n')
 print("Maior:{}".format(maior))
 print("Menor:{}".format(menor))'''
 
+'''Exercício 75
+a = int(input("Informe um valor:\n"))
+b = int(input("Informe um valor:\n"))
+c = int(input("Informe um valor:\n"))
+d = int(input("Informe um valor:\n"))
+print('\n')
+count = 0
+pos = 0
+valor = (a,b,c,d)
 
-
-
-
-
+for num in valor:
+    if num == 9:
+        count+=1
+    if num % 2 == 0:
+        print("",num,end='') 
+print("\n")
+print("{}".format(count))
+print("",valor.index(3))'''
 
