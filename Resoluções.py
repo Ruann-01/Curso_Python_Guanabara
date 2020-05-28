@@ -1068,3 +1068,53 @@ print("\n")
 print("{}".format(count))
 print("",valor.index(3))'''
 
+class Calculadora:
+    def __init__(self,num1,num2):
+        self.valor_a = num1
+        self.valor_b = num2
+    def soma(self):
+        return self.valor_a + self.valor_b
+
+    def sub(self):
+        return self.valor_a - self.valor_b
+
+    def multi(self):
+        return self.valor_a * self.valor_b
+
+    def div(self):
+        return self.valor_a / self.valor_b
+
+calculadora = Calculadora(2,10)
+
+print(calculadora.soma())
+print(calculadora.sub())
+print(calculadora.multi())
+print(calculadora.div())
+
+class Televisao:
+    def __init__(self):
+        self.ligada = False
+        self.canal = 5
+    
+    def power(self):
+        if self.ligada:
+            self.ligada = False
+        else:
+            self.ligada = True
+
+    def aumenta_canal(self):
+        self.canal += 1
+
+    def diminui_canal(self):
+        self.canal -= 1
+
+tv =Televisao()
+print(tv.ligada)
+tv.power()
+print(tv.ligada)
+tv.power()
+print(tv.ligada)
+tv.aumenta_canal()
+tv.aumenta_canal()
+
+print("{}" .format(tv.canal))
